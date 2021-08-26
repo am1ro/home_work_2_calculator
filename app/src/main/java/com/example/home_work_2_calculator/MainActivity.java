@@ -10,6 +10,7 @@ import org.w3c.dom.Text;
 
 
 public class MainActivity extends AppCompatActivity {
+
     private TextView result;
 
     @Override
@@ -20,8 +21,12 @@ public class MainActivity extends AppCompatActivity {
         result = findViewById(R.id.result);
 
     }
-public void onClick (View view) {
+    public void onClick (View view) {
         Button button = (Button) view;
         result.append(button.getText());
-}
+
+
+    }
+
+
 }
